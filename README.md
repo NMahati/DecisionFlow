@@ -181,14 +181,17 @@ orchestration code changes.
 
 ## Screenshots
 
+Dashboard with customer overview + agent timeline.
+
 <img width="958" height="499" alt="image" src="https://github.com/user-attachments/assets/6affabd4-14e9-4ab6-90a1-2e7c726e93f4" />
 
+Recommendation cards with the evidence panel open.
 
-1. Dashboard with customer overview + agent timeline.
-2. Recommendation cards with the evidence panel open.
-3. Memory timeline after approving a few actions.
+<img width="933" height="495" alt="image" src="https://github.com/user-attachments/assets/b1787f8f-8e3b-4c3a-96ae-ed3cbb53affc" />
 
-_(Add images to a `docs/` folder and link them here.)_
+Memory timeline after approving a few actions.
+
+<img width="955" height="473" alt="image" src="https://github.com/user-attachments/assets/ded512e0-1351-4b00-83ab-5f8925421644" />
 
 ---
 
