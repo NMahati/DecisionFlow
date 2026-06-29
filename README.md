@@ -181,7 +181,8 @@ orchestration code changes.
 
 ## Screenshots
 
-Run the app locally and capture:
+<img width="958" height="499" alt="image" src="https://github.com/user-attachments/assets/6affabd4-14e9-4ab6-90a1-2e7c726e93f4" />
+
 
 1. Dashboard with customer overview + agent timeline.
 2. Recommendation cards with the evidence panel open.
