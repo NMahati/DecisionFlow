@@ -187,11 +187,12 @@ Dashboard with customer overview + agent timeline.
 
 Recommendation cards with the evidence panel open.
 
-<img width="958" height="486" alt="image" src="https://github.com/user-attachments/assets/db5f47a3-a40e-4afd-8645-e0cda14c123b" />
+<img width="938" height="490" alt="image" src="https://github.com/user-attachments/assets/84c8fa52-3f41-4c80-906b-64a15570ec39" />
 
 Memory timeline after approving a few actions.
 
-<img width="955" height="473" alt="image" src="https://github.com/user-attachments/assets/ded512e0-1351-4b00-83ab-5f8925421644" />
+<img width="937" height="488" alt="image" src="https://github.com/user-attachments/assets/28e952ec-97ff-4f9d-8252-b69d26f402a7" />
+
 
 ---
 
