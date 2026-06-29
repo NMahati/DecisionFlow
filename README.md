@@ -1,3 +1,19 @@
+## Team Details
+
+Team Name - TriAInity
+
+Project Title - DecisionFlow AI - Agentic Decision Intelligence for Customer Success(Hackathon Project 2: Intelligent Next Best
+Action Platform)
+
+Members:
+
+Chepyala Sahasra Reddy - 23071A67E4 (CSE - DataScience)
+
+Mahati N - 23071A67F9 (CSE - DataScience)
+
+Pilli Amrutha Varshini - 23071A67G9(CSE - DataScience)
+
+
 # DecisionFlow AI
 
 **An Agentic Decision Intelligence Platform for Customer Success.**
@@ -32,6 +48,33 @@ Key properties:
 - **Demo-safe** — runs fully offline in MOCK mode when no API key is present.
 
 ---
+## GitHub Repository Link
+
+
+
+## Setup
+
+### 1. Backend
+
+```bash
+cd decisionflow-ai/backend
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env         # optional: add GOOGLE_API_KEY for real LLM calls
+uvicorn main:app --reload --port 8000
+```
+
+> **No API key?** Leave `GOOGLE_API_KEY` blank — the platform runs in **MOCK
+> mode** and every agent returns realistic, deterministic output, so the full
+> workflow and demo work offline.
+
+### 2. Frontend
+
+```bash
+cd decisionflow-ai/frontend
+npm install
+npm run dev
+```
 
 ## Architecture
 
@@ -88,29 +131,7 @@ decisionflow-ai/
 
 ---
 
-## Setup
 
-### 1. Backend
-
-```bash
-cd decisionflow-ai/backend
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-copy .env.example .env         # optional: add GOOGLE_API_KEY for real LLM calls
-uvicorn main:app --reload --port 8000
-```
-
-> **No API key?** Leave `GOOGLE_API_KEY` blank — the platform runs in **MOCK
-> mode** and every agent returns realistic, deterministic output, so the full
-> workflow and demo work offline.
-
-### 2. Frontend
-
-```bash
-cd decisionflow-ai/frontend
-npm install
-npm run dev
-```
 
 ---
 
