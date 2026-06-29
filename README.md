@@ -35,27 +35,7 @@ Key properties:
 
 ## Architecture
 
-```
-                          ┌──────────────────────────────┐
- Customer inputs ───────► │        FastAPI backend        │
- (transcript, CRM,        │  /upload /analyze /approve …  │
-  email, ticket, notes)   └───────────────┬──────────────┘
-                                          │
-                              LangGraph workflow (planner-gated)
-                                          │
-   ┌──────────┬──────────┬──────────┬─────┴────┬──────────┬──────────────┬────────────┬────────┐
-   ▼          ▼          ▼          ▼          ▼          ▼              ▼            ▼        ▼
- Planner  Conversation  CRM     Knowledge    Risk    Opportunity  Recommendation  Explanation  Memory
-   │          │          │      (ChromaDB)    │          │              │             │          │
-   └──────────┴──────────┴──────────┴──────────┴──────────┴──────────────┴─────────────┴──────────┘
-                                          │
-                       SQLite (customers, runs, recommendations, memory)
-                                          │
-                          ┌───────────────▼──────────────┐
-                          │   Next.js + Tailwind + shadcn │
-                          │  dashboard · evidence · HITL  │
-                          └───────────────────────────────┘
-```
+<img width="1331" height="802" alt="image" src="https://github.com/user-attachments/assets/879c1b61-55a3-428b-98bf-cf9a6f7cedad" />
 
 **Stack**
 
