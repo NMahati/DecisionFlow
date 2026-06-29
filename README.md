@@ -96,11 +96,9 @@ decisionflow-ai/
 cd decisionflow-ai/backend
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env          # optional: add GOOGLE_API_KEY for real LLM calls
+copy .env.example .env         # optional: add GOOGLE_API_KEY for real LLM calls
 uvicorn main:app --reload --port 8000
 ```
-
-Open http://localhost:8000/docs for the interactive API.
 
 > **No API key?** Leave `GOOGLE_API_KEY` blank — the platform runs in **MOCK
 > mode** and every agent returns realistic, deterministic output, so the full
@@ -113,9 +111,6 @@ cd decisionflow-ai/frontend
 npm install
 npm run dev
 ```
-
-Open http://localhost:3000. The dashboard proxies `/api/*` to the backend on
-port 8000 (see `next.config.js`).
 
 ---
 
