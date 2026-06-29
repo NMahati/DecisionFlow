@@ -1,11 +1,11 @@
 ## Team Details
 
-Team Name - TriAInity
+**Team Name** - TriAInity
 
-Project Title - DecisionFlow AI - Agentic Decision Intelligence for Customer Success(Hackathon Project 2: Intelligent Next Best
+**Project Title** - DecisionFlow AI - Agentic Decision Intelligence for Customer Success(Hackathon Project 2: Intelligent Next Best
 Action Platform)
 
-Members:
+**Members:**
 
 Chepyala Sahasra Reddy - 23071A67E4 (CSE - DataScience)
 
@@ -49,8 +49,7 @@ Key properties:
 
 ---
 ## GitHub Repository Link
-
-
+https://github.com/NMahati/DecisionFlow
 
 ## Setup
 
